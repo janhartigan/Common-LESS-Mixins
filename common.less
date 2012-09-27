@@ -79,7 +79,12 @@
 	-webkit-border-bottom-left-radius:@radius;
 	background-clip:padding-box;
 }
-
+/* clears the border radius from an element */
+@noBorderRadius {
+	-moz-border-radius:0;
+	border-radius:0;
+	-webkit-border-radius:0;
+}
 
 
 
@@ -104,6 +109,11 @@
 	-moz-box-shadow: inset @hOffset @vOffset @blurRadius @spread @color;
 	-webkit-box-shadow: inset @hOffset @vOffset @blurRadius @spread @color;
 	box-shadow: inset @hOffset @vOffset @blurRadius @spread @color;
+}
+@noBoxShadow {
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
 }
 
 
