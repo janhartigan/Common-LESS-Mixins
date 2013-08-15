@@ -13,7 +13,7 @@ background-clip:padding-box;
 But with the common LESS mixins, all you'd have to write is:
 
 <pre>
-@borderRadius(5px);
+.borderRadius(5px);
 </pre>
 
 Simple as that! I'll eventually get around to writing a more complete reference guide, but for now this is mostly for personal use. You can easily see what all of the mixins do by exploring the very straightforward code.
